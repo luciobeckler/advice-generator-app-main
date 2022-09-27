@@ -74,15 +74,14 @@ body{
 
 .ef-glow {
       display: inline-block;
-      vertical-align: middle;
       -webkit-transform: perspective(1px) translateZ(0);
       transform: perspective(1px) translateZ(0);
-      box-shadow: 0 0 100px transparent;
+      box-shadow: 0 0 75px transparent;
       -webkit-transition-duration: 1s;
       transition-duration: 1s;
       -webkit-transition-property: box-shadow;
       transition-property: box-shadow;
     }
-    .ef-glow:hover, .ef-glow:focus, .ef-glow:active {
-      box-shadow: 0 0 8px rgba(16, 184, 44, 0.6);
+    .ef-glow:hover, .ef-glow:active {
+      box-shadow: 0 0 8px hsl(150, 100%, 66%);
     }

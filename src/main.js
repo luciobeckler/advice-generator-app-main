@@ -8,7 +8,7 @@ button.addEventListener('click', function () {
             .then(advice => {
                   adviceText.innerHTML = "\"" + advice.slip.advice + "\""
 
-                  button.classList.add('ef-glow')
-                  button.classList.remove('ef-glow')
             })
+
+
 })
