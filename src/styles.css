@@ -1,0 +1,88 @@
+/* ### Primary
+
+- Light Cyan: hsl(193, 38%, 86%)
+- Neon Green: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Grayish Blue: hsl(217, 19%, 38%)
+- Dark Grayish Blue: hsl(217, 19%, 24%)
+- Dark Blue: hsl(218 */
+
+html{
+      width: 100%;
+      height: 100%;
+      display: flex;
+}
+body{
+      background-color: hsl(218, 23%, 16%);
+      display: flex;
+      height: 100%;
+      width: 100%;
+      margin: 0px;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 17px;
+}
+
+.mainBox{
+      background-color: hsl(217, 19%, 24%);
+      border-radius: 5%;
+      padding: 40px;
+      width: 30%;
+      height: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.adviceTittle{
+      color: hsl(150, 100%, 66%);
+      margin: 0px;
+      position: fixed;
+      top: 220px;
+}
+
+.adviceText{
+      color:hsl(193, 38%, 86%);
+      text-align: center;
+      margin: 0px;
+}
+
+.divisorImg{
+      position: fixed;
+      top: 470px;
+      height: 3%;
+      width: 30%;
+}
+
+
+.reloadButton{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding:20px ;
+      border-radius: 50%;
+      background-color: hsl(150, 100%, 66%);
+      border: none;
+      cursor: pointer;
+      position: fixed;
+      bottom: 160px;
+}
+
+.ef-glow {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 100px transparent;
+      -webkit-transition-duration: 1s;
+      transition-duration: 1s;
+      -webkit-transition-property: box-shadow;
+      transition-property: box-shadow;
+    }
+    .ef-glow:hover, .ef-glow:focus, .ef-glow:active {
+      box-shadow: 0 0 8px rgba(16, 184, 44, 0.6);
+    }
