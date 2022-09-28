@@ -43,6 +43,7 @@ body{
       margin: 0px;
       position: fixed;
       top: 220px;
+      font-size: 20px;
 }
 
 .adviceText{
@@ -85,3 +86,14 @@ body{
     .ef-glow:hover, .ef-glow:active {
       box-shadow: 0 0 8px hsl(150, 100%, 66%);
     }
+
+@media(max-width: 375px){
+      .mainBox{
+            width: 65%;
+            height: 40%;
+      }
+
+      .divisorImg{
+            width: 60%;
+      }
+}
